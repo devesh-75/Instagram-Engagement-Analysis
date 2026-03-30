@@ -14,7 +14,7 @@
 
 
 
-This project focuses on analyzing Instagram user engagement using Big Data technologies and Machine Learning. It simulates how large-scale platforms process user interaction data and generate insights for content optimization.
+This project analyzes Instagram user engagement using Big Data technologies and Machine Learning. It simulates how large-scale platforms process user interaction data and generate insights for content optimization.
 
 
 
@@ -80,47 +80,43 @@ The objective of this project is to analyze large-scale Instagram engagement dat
 
 
 
-```
-
 Raw Data Generation (Python)
 
-&#x20;       ↓
+↓
 
 Data Storage (CSV)
 
-&#x20;       ↓
+↓
 
 Data Loading (PySpark)
 
-&#x20;       ↓
+↓
 
 Data Cleaning \& Validation
 
-&#x20;       ↓
+↓
 
 Exploratory Data Analysis
 
-&#x20;       ↓
+↓
 
 Feature Engineering (Engagement Score)
 
-&#x20;       ↓
+↓
 
 Feature Transformation (VectorAssembler)
 
-&#x20;       ↓
+↓
 
 Machine Learning Model (Logistic Regression)
 
-&#x20;       ↓
+↓
 
 Prediction (High / Low Engagement)
 
-&#x20;       ↓
+↓
 
 Results \& Insights
-
-```
 
 
 
@@ -192,15 +188,11 @@ Null values were checked and handled to ensure data consistency.
 
 
 
-A new feature was created:
+Engagement Score formula:
 
 
 
-```
-
-Engagement Score = (Likes + Comments + Shares) / Followers
-
-```
+\*\*Engagement Score = (Likes + Comments + Shares) / Followers\*\*
 
 
 
@@ -296,7 +288,7 @@ Engagement Score = (Likes + Comments + Shares) / Followers
 
 
 
-This project demonstrates how Big Data tools like PySpark can be used to analyze large-scale social media data and build predictive models for engagement. It reflects real-world practices used in platforms like Instagram.
+This project demonstrates how Big Data tools like PySpark can be used to analyze large-scale social media data and build predictive models for engagement.
 
 
 
